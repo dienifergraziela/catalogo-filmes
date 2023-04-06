@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+
+.container.fluid{
+    background-color: #FFA07A;
+}
+
+
+.card{
+    margin-left: 2.0rem;
+    width:14rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+
+}
+
+
+#img1{
+    width: 10vh;
+}
+
+
+div.card-body{
+    background-color: #FFA07A;
+    color: #fff;
+}
+
+
+#lista-filmes{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+
+button#btn-buscar-filme:hover{
+    background-color: #FFA07A;
+}
+
+
+img.card-img-detalhes{
+    margin-left: 15vw;
+    margin-top: 5vh;
+}
+
+
+div.card-body-detalhes{
+    float: right;
+    width: 40vw;
+    text-align: center;
+    padding: 15vh;
+    text-shadow: 2px 1px 2px #FFA07A;
+}
+
+
+button.btnDetalhesFilme{
+    border-radius: 100px;
+    color: #ffa07a;
+    background-color: #000;
+}
+
+
+button.btnDetalhesFilme:hover{
+    border-color: #ff7f50;
+    color: #fff;
+    background-color: #ff7f50;
+}
